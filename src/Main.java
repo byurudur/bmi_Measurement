@@ -1,8 +1,12 @@
 import java.util.Scanner;
 
-class Main {
+public class Main {
     public static void main(String[] args) {
+        Main fullCodes = new Main();
+        fullCodes.fullCodes();
+    }
 
+    public void fullCodes(){
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Vücut kitle indeksi; ağırlığın boyun karesine bölünmesi formülü ile hesaplanmaktadır.Bireyin ideal kilosunu görebilmesi ve hangi ağırlık kategorisinde olduğunu öğrenebilmesi açısından kullanılan bir formüldür.");
@@ -30,7 +34,6 @@ class Main {
         }
     }
 }
-
 /*
         Comment lines has been added. @author A. Batuhan YÜRÜDÜR, 2024
         Dots changed as commas to achieve a proper output [aa.b and a.bb == aa,b and a,bb]
